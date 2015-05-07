@@ -1,7 +1,11 @@
 #!/bin/bash
 
+timestamp() {
+  date +"%T"
+}
 
-#As x64
+echo "Start Time: " 
+timestamp 
 
-./RopTool -a x64 -c luaScipts/x64/call_reg.lua -f x86_64_FAT/sh | tail -n +7 >  Results/Test68
-./RopTool -a x64 -c luaScipts/x64/call_reg.lua -f x86_64_FAT/sync | tail -n +7 >  Results/Test69
+echo "End Time:" 
+timestamp

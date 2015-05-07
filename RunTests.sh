@@ -2,6 +2,14 @@
 
 # Commented out lines are tests that failed to run initially
 
+timestamp() {
+  date +"%T"
+}
+
+echo "Start Time: " 
+timestamp
+
+
 #########################################x86 tests #################################################
 
 ./RopTool -f x86/MachO-OSX-x86-ls -c luaScipts/x86/call_reg.lua | tail -n +7 >  tmp
@@ -514,3 +522,14 @@ if [ $? -eq 1 ]
 then
   exit 1
 fi
+
+
+#############################################
+echo "End Time:" 
+timestamp
+
+
+
+
+
+
