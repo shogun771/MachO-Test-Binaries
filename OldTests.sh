@@ -1,5 +1,10 @@
 #!/bin/sh 
 
+# This is used to build the Results directory for future comparison
+# Commented out lines are tests that failed to run initially
+
+
+
 #x86 tests 
 
 ./RopTool -f x86/MachO-OSX-x86-ls -c luaScipts/x86/call_reg.lua | tail -n +7 >  Results/Test1
@@ -11,7 +16,7 @@
 ./RopTool -f x86/MachO-OSX-x86-ls -c luaScipts/x86/vcall2.lua | tail -n +7 >  Results/Test7
 ./RopTool -f x86/MachO-OSX-x86-ls -c luaScipts/x86/transfer_arith_with_branch.lua | tail -n +7 >  Results/Test8
 
-#x64 tests
+#x64 tests ( ommitted all filezilla tests due to their size) 
 
 
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/cat | tail -n +7 >  Results/Test9
@@ -27,8 +32,8 @@
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/expr | tail -n +7 >  Results/Test19 
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/hostname | tail -n +7 >  Results/Test20
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/kill | tail -n +7 >  Results/Test21
-./RopTool -c luaScipts/x64/call_reg.lua -f x64/ksh | tail -n +7 >  Results/Test22
-./RopTool -c luaScipts/x64/call_reg.lua -f x64/launchctl | tail -n +7 >  Results/Test23
+#./RopTool -c luaScipts/x64/call_reg.lua -f x64/ksh | tail -n +7 >  Results/Test22
+#./RopTool -c luaScipts/x64/call_reg.lua -f x64/launchctl | tail -n +7 >  Results/Test23
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/link | tail -n +7 >  Results/Test24
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/ln  | tail -n +7 >  Results/Test25 
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/ls | tail -n +7 >  Results/Test26
@@ -47,10 +52,46 @@
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/test | tail -n +7 >  Results/Test39
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/unlink | tail -n +7 >  Results/Test40
 ./RopTool -c luaScipts/x64/call_reg.lua -f x64/wait4path | tail -n +7 >  Results/Test41 
-./RopTool -c luaScipts/x64/call_reg.lua -f x64/zsh | tail -n +7 >  Results/Test42
+#./RopTool -c luaScipts/x64/call_reg.lua -f x64/zsh | tail -n +7 >  Results/Test42
 
 
 
-#x86_64_FAT tests 
+#x86_64_FAT tests ( ommitted MachO-OSX-ppc-and-i386-bash due to size) 
+#As x86 
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/call_reg.lua | tail -n +7 >  Results/Test43
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/pop_ecx.lua | tail -n +7 >  Results/Test44
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/pvtdown.lua | tail -n +7 >  Results/Test45
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/pvtfinder.lua | tail -n +7 >  Results/Test46
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/pvtfinder2.lua | tail -n +7 >  Results/Test47 
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/vcall.lua | tail -n +7 >  Results/Test48
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/vcall2.lua | tail -n +7 >  Results/Test49
+./RopTool -a x86 -f x86_64_FAT/bash -c luaScipts/x86/transfer_arith_with_branch.lua | tail -n +7 >  Results/Test50
 
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/call_reg.lua | tail -n +7 >  Results/Test51
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/pop_ecx.lua | tail -n +7 >  Results/Test52
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/pvtdown.lua | tail -n +7 >  Results/Test53 
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/pvtfinder.lua | tail -n +7 >  Results/Test54
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/pvtfinder2.lua | tail -n +7 >  Results/Test55
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/vcall.lua | tail -n +7 >  Results/Test56 
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/vcall2.lua | tail -n +7 >  Results/Test57 
+./RopTool -a x86 -f x86_64_FAT/sh -c luaScipts/x86/transfer_arith_with_branch.lua | tail -n +7 >  Results/Test58 
+
+
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/call_reg.lua | tail -n +7 >  Results/Test59
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pop_ecx.lua | tail -n +7 >  Results/Test60
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pvtdown.lua | tail -n +7 >  Results/Test61
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pvtfinder.lua | tail -n +7 >  Results/Test62
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pvtfinder2.lua | tail -n +7 >  Results/Test63
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/vcall.lua | tail -n +7 >  Results/Test64 
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/vcall2.lua | tail -n +7 >  Results/Test65 
+./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/transfer_arith_with_branch.lua | tail -n +7 >  Results/Test66
+
+
+
+
+#As x64
+
+#./RopTool -a x64 -c luaScipts/x64/call_reg.lua -f x86_64_FAT/bash | tail -n +7 >  Results/Test67
+#./RopTool -a x64 -c luaScipts/x64/call_reg.lua -f x86_64_FAT/sh | tail -n +7 >  Results/Test68
+./RopTool -a x64 -c luaScipts/x64/call_reg.lua -f x86_64_FAT/sync | tail -n +7 >  Results/Test69
 

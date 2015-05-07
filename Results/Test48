@@ -1,0 +1,177 @@
+ Done searching!
+--------------------------------------------------
+--[  Gadgets 
+----------------------------------------
+0x855e9: jmp	dword ptr [eax]
+ ------------------------------
+0x85675: call	dword ptr [eax]
+ ------------------------------
+0x856cb: call	dword ptr [eax]
+ ------------------------------
+0x856eb: jmp	dword ptr [eax]
+ ------------------------------
+0x85721: call	dword ptr [eax]
+ ------------------------------
+0x85741: jmp	dword ptr [eax]
+ ------------------------------
+0x73071: jmp	dword ptr [eax]
+ ------------------------------
+0x649f5: call	dword ptr [eax]
+ ------------------------------
+0x64f67: call	dword ptr [eax]
+ ------------------------------
+0x64f9b: call	dword ptr [eax]
+ ------------------------------
+0x65031: call	dword ptr [eax]
+ ------------------------------
+0x66403: call	dword ptr [eax]
+ ------------------------------
+0x5fb4f: xchg	eax, esp
+0x5fb50: ret	0xc208
+ ------------------------------
+0x5c945: xchg	eax, esp
+0x5c946: ret	0xb58b
+ ------------------------------
+0x5e3a4: xchg	eax, esp
+0x5e3a5: ret	0xca08
+ ------------------------------
+0x5aea8: xchg	eax, esp
+0x5aea9: ret	
+ ------------------------------
+0x5c179: add	byte ptr [eax], al
+0x5c17b: add	byte ptr [eax - 0x1b743], al
+0x5c181: jmp	dword ptr [eax]
+ ------------------------------
+0x5c702: xchg	eax, esp
+0x5c703: ret	
+ ------------------------------
+0x51a73: xchg	eax, esp
+0x51a74: ret	
+ ------------------------------
+0x4f9d2: add	dword ptr [edi], ecx
+0x4f9d4: xchg	eax, esp
+0x4f9d5: ret	0xc085
+ ------------------------------
+0x4c04f: call	dword ptr [eax]
+ ------------------------------
+0x4919b: xchg	eax, esp
+0x4919c: ret	
+ ------------------------------
+0x45343: fisttp	dword ptr [edi]
+0x45345: xchg	eax, esp
+0x45346: ret	0xbd83
+ ------------------------------
+0x45345: xchg	eax, esp
+0x45346: ret	0xbd83
+ ------------------------------
+0x3fb1a: dec	dword ptr [edi]
+0x3fb1c: xchg	eax, esp
+0x3fb1d: ret	0x950f
+ ------------------------------
+0x3fb1c: xchg	eax, esp
+0x3fb1d: ret	0x950f
+ ------------------------------
+0x3f4f9: xchg	eax, esp
+0x3f4fa: ret	0x950a
+ ------------------------------
+0x360a9: and	dword ptr [edi], ecx
+0x360ab: xchg	eax, esp
+0x360ac: ret	0xf883
+ ------------------------------
+0x360ab: xchg	eax, esp
+0x360ac: ret	0xf883
+ ------------------------------
+0x316bb: jmp	dword ptr [eax]
+ ------------------------------
+0x29fe0: add	byte ptr [edi], cl
+0x29fe2: xchg	eax, esp
+0x29fe3: ret	
+ ------------------------------
+0x29fe2: xchg	eax, esp
+0x29fe3: ret	
+ ------------------------------
+0x27afd: or	byte ptr [ebx + 0xf010c7b], al
+0x27b03: xchg	eax, esp
+0x27b04: ret	0xb60f
+ ------------------------------
+0x27b01: add	dword ptr [edi], ecx
+0x27b03: xchg	eax, esp
+0x27b04: ret	0xb60f
+ ------------------------------
+0x289d7: xchg	eax, esp
+0x289d8: ret	0xd184
+ ------------------------------
+0x23add: xchg	eax, esp
+0x23ade: ret	
+ ------------------------------
+0x24d06: xchg	eax, esp
+0x24d07: ret	0xca08
+ ------------------------------
+0x20e88: add	byte ptr [edi], cl
+0x20e8a: xchg	eax, esp
+0x20e8b: ret	0xd184
+ ------------------------------
+0x21621: xchg	eax, esp
+0x21622: ret	0xc985
+ ------------------------------
+0x1f12f: add	byte ptr [edi], cl
+0x1f131: xchg	eax, esp
+0x1f132: ret	0xb18b
+ ------------------------------
+0x1f131: xchg	eax, esp
+0x1f132: ret	0xb18b
+ ------------------------------
+0x1a84a: add	dword ptr [edi], ecx
+0x1a84c: xchg	eax, esp
+0x1a84d: ret	
+ ------------------------------
+0x1b86f: or	byte ptr [edi], cl
+0x1b871: xchg	eax, esp
+0x1b872: ret	0xf685
+ ------------------------------
+0x12943: or	cl, byte ptr [edi]
+0x12945: xchg	eax, esp
+0x12946: ret	
+ ------------------------------
+0x14b78: xchg	eax, esp
+0x14b79: ret	0xca08
+ ------------------------------
+0xe2da: sub	ecx, dword ptr [edi]
+0xe2dc: xchg	eax, esp
+0xe2dd: ret	0x4d8b
+ ------------------------------
+0xe2dc: xchg	eax, esp
+0xe2dd: ret	0x4d8b
+ ------------------------------
+0xe4fb: sub	ecx, dword ptr [edi]
+0xe4fd: xchg	eax, esp
+0xe4fe: ret	
+ ------------------------------
+0xe4fd: xchg	eax, esp
+0xe4fe: ret	
+ ------------------------------
+0xff0f: xchg	eax, esp
+0xff10: ret	
+ ------------------------------
+0xff7e: dec	dword ptr [edi]
+0xff80: xchg	eax, esp
+0xff81: ret	
+ ------------------------------
+0xff80: xchg	eax, esp
+0xff81: ret	
+ ------------------------------
+0xdfe3: add	byte ptr [edi], cl
+0xdfe5: xchg	eax, esp
+0xdfe6: ret	
+ ------------------------------
+0xdfe5: xchg	eax, esp
+0xdfe6: ret	
+ ------------------------------
+0x29b0: xchg	eax, esp
+0x29b1: ret	0xb58a
+ ------------------------------
+--------------------------------------------------
+--[  Stats 
+----------------------------------------
+Gadgets found: 55
+[Debug] good: 55 - errors: 0

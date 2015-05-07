@@ -1,0 +1,42 @@
+ Done searching!
+--------------------------------------------------
+--[  Gadgets 
+----------------------------------------
+0x85e95: add	bh, bl
+0x85e97: call	dword ptr [ecx]
+ ------------------------------
+0x741db: jmp	dword ptr [ecx]
+ ------------------------------
+0x6fac5: add	al, ch
+0x6fac7: call	dword ptr [ecx]
+ ------------------------------
+0x6fac7: call	dword ptr [ecx]
+ ------------------------------
+0x6de49: dec	dword ptr [ecx - 0x10cf73]
+0x6de4f: call	dword ptr [ecx]
+ ------------------------------
+0x6de4f: call	dword ptr [ecx]
+ ------------------------------
+0x651ba: jmp	dword ptr [ecx]
+ ------------------------------
+0x45a51: mov	dword ptr [ebx], 0xfffa84bd
+0x45a57: call	dword ptr [ecx]
+ ------------------------------
+0x45a57: call	dword ptr [ecx]
+ ------------------------------
+0x3e639: jmp	dword ptr [ecx]
+ ------------------------------
+0x29f4c: jmp	dword ptr [ecx]
+ ------------------------------
+0x2bef1: jmp	dword ptr [ecx]
+ ------------------------------
+0x11fae: out	dx, eax
+0x11faf: jmp	dword ptr [ecx]
+ ------------------------------
+0x11faf: jmp	dword ptr [ecx]
+ ------------------------------
+--------------------------------------------------
+--[  Stats 
+----------------------------------------
+Gadgets found: 14
+[Debug] good: 14 - errors: 0

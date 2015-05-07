@@ -1,0 +1,673 @@
+ Done searching!
+--------------------------------------------------
+--[  Gadgets 
+----------------------------------------
+0x69d18: add	byte ptr [ebp - 0x76d38b40], al
+0x69d1e: cmp	al, 0x24
+0x69d20: call	eax
+ ------------------------------
+0x69d1d: mov	dword ptr [esp], edi
+0x69d20: call	eax
+ ------------------------------
+0x69d1e: cmp	al, 0x24
+0x69d20: call	eax
+ ------------------------------
+0x69d20: call	eax
+ ------------------------------
+0x69d71: mov	dword ptr es:[esp], edi
+0x69d75: call	eax
+ ------------------------------
+0x69d72: mov	dword ptr [esp], edi
+0x69d75: call	eax
+ ------------------------------
+0x69d73: cmp	al, 0x24
+0x69d75: call	eax
+ ------------------------------
+0x69d75: call	eax
+ ------------------------------
+0x699ce: xchg	eax, edx
+0x699cf: call	edi
+ ------------------------------
+0x64a9e: mov	dword ptr [esp], ecx
+0x64aa1: call	eax
+ ------------------------------
+0x64ada: call	eax
+ ------------------------------
+0x64d22: call	eax
+ ------------------------------
+0x66ae3: mov	ecx, dword ptr [ecx + 0x20af5]
+0x66ae9: mov	ecx, dword ptr [ecx]
+0x66aeb: mov	dword ptr [esp], ecx
+0x66aee: call	eax
+ ------------------------------
+0x66ae8: add	byte ptr [ebx + 0x240c8909], cl
+0x66aee: call	eax
+ ------------------------------
+0x66ae9: mov	ecx, dword ptr [ecx]
+0x66aeb: mov	dword ptr [esp], ecx
+0x66aee: call	eax
+ ------------------------------
+0x66aee: call	eax
+ ------------------------------
+0x66bae: mov	ecx, dword ptr [ebp + 8]
+0x66bb1: mov	dword ptr [esp], ecx
+0x66bb4: call	eax
+ ------------------------------
+0x66bb4: call	eax
+ ------------------------------
+0x66d18: call	eax
+ ------------------------------
+0x61593: add	byte ptr [eax], al
+0x61595: call	ecx
+ ------------------------------
+0x61595: call	ecx
+ ------------------------------
+0x5df28: mov	dword ptr [eax], ecx
+0x5df2a: mov	eax, dword ptr [ebp - 0x9c]
+0x5df30: mov	dword ptr [esp], eax
+0x5df33: mov	dword ptr [esp + 4], 0xffffffff
+0x5df3b: call	esi
+ ------------------------------
+0x5df2a: mov	eax, dword ptr [ebp - 0x9c]
+0x5df30: mov	dword ptr [esp], eax
+0x5df33: mov	dword ptr [esp + 4], 0xffffffff
+0x5df3b: call	esi
+ ------------------------------
+0x5df30: mov	dword ptr [esp], eax
+0x5df33: mov	dword ptr [esp + 4], 0xffffffff
+0x5df3b: call	esi
+ ------------------------------
+0x5df31: add	al, 0x24
+0x5df33: mov	dword ptr [esp + 4], 0xffffffff
+0x5df3b: call	esi
+ ------------------------------
+0x5df33: mov	dword ptr [esp + 4], 0xffffffff
+0x5df3b: call	esi
+ ------------------------------
+0x5df3b: call	esi
+ ------------------------------
+0x5e2dd: mov	dword ptr [esp + 4], esi
+0x5e2e1: mov	ecx, dword ptr [ebp + 8]
+0x5e2e4: mov	dword ptr [esp], ecx
+0x5e2e7: call	eax
+ ------------------------------
+0x5e2e1: mov	ecx, dword ptr [ebp + 8]
+0x5e2e4: mov	dword ptr [esp], ecx
+0x5e2e7: call	eax
+ ------------------------------
+0x5e2e4: mov	dword ptr [esp], ecx
+0x5e2e7: call	eax
+ ------------------------------
+0x57ffd: lea	ecx, dword ptr [edi + 0x3616f]
+0x58003: mov	dword ptr [esp], ecx
+0x58006: call	eax
+ ------------------------------
+0x58003: mov	dword ptr [esp], ecx
+0x58006: call	eax
+ ------------------------------
+0x58018: mov	dword ptr [esp], ecx
+0x5801b: call	eax
+ ------------------------------
+0x5801b: call	eax
+ ------------------------------
+0x5807b: mov	ecx, dword ptr [ecx]
+0x5807d: mov	edx, dword ptr [edi + 0x36173]
+0x58083: mov	dword ptr [esp + 4], ecx
+0x58087: mov	dword ptr [esp], edx
+0x5808a: call	eax
+ ------------------------------
+0x5807d: mov	edx, dword ptr [edi + 0x36173]
+0x58083: mov	dword ptr [esp + 4], ecx
+0x58087: mov	dword ptr [esp], edx
+0x5808a: call	eax
+ ------------------------------
+0x58083: mov	dword ptr [esp + 4], ecx
+0x58087: mov	dword ptr [esp], edx
+0x5808a: call	eax
+ ------------------------------
+0x58087: mov	dword ptr [esp], edx
+0x5808a: call	eax
+ ------------------------------
+0x5808a: call	eax
+ ------------------------------
+0x580e3: mov	edx, dword ptr [edx]
+0x580e5: mov	dword ptr [esp + 4], edx
+0x580e9: mov	dword ptr [esp], eax
+0x580ec: call	ecx
+ ------------------------------
+0x580e5: mov	dword ptr [esp + 4], edx
+0x580e9: mov	dword ptr [esp], eax
+0x580ec: call	ecx
+ ------------------------------
+0x580e6: push	esp
+0x580e7: and	al, 4
+0x580e9: mov	dword ptr [esp], eax
+0x580ec: call	ecx
+ ------------------------------
+0x580e7: and	al, 4
+0x580e9: mov	dword ptr [esp], eax
+0x580ec: call	ecx
+ ------------------------------
+0x580e8: add	al, -0x77
+0x580ea: add	al, 0x24
+0x580ec: call	ecx
+ ------------------------------
+0x580e9: mov	dword ptr [esp], eax
+0x580ec: call	ecx
+ ------------------------------
+0x580ea: add	al, 0x24
+0x580ec: call	ecx
+ ------------------------------
+0x580ec: call	ecx
+ ------------------------------
+0x58468: mov	dword ptr [esp + 8], ecx
+0x5846c: mov	dword ptr [esp + 4], edx
+0x58470: mov	dword ptr [esp], esi
+0x58473: call	eax
+ ------------------------------
+0x5846c: mov	dword ptr [esp + 4], edx
+0x58470: mov	dword ptr [esp], esi
+0x58473: call	eax
+ ------------------------------
+0x58473: call	eax
+ ------------------------------
+0x58640: mov	esi, 0x7f8d0004
+0x58645: add	dword ptr [ebp - 0xa], esi
+0x58648: mov	dword ptr [esp], esi
+0x5864b: call	eax
+ ------------------------------
+0x58645: add	dword ptr [ebp - 0xa], esi
+0x58648: mov	dword ptr [esp], esi
+0x5864b: call	eax
+ ------------------------------
+0x58648: mov	dword ptr [esp], esi
+0x5864b: call	eax
+ ------------------------------
+0x5864b: call	eax
+ ------------------------------
+0x5890a: mov	dword ptr [esp + 8], ecx
+0x5890e: mov	dword ptr [esp + 4], edx
+0x58912: mov	dword ptr [esp], ebx
+0x58915: call	eax
+ ------------------------------
+0x58912: mov	dword ptr [esp], ebx
+0x58915: call	eax
+ ------------------------------
+0x59137: mov	dword ptr [esp + 4], eax
+0x5913b: mov	eax, dword ptr [ebp + 8]
+0x5913e: mov	dword ptr [esp], eax
+0x59141: mov	esi, edx
+0x59143: call	ecx
+ ------------------------------
+0x5913b: mov	eax, dword ptr [ebp + 8]
+0x5913e: mov	dword ptr [esp], eax
+0x59141: mov	esi, edx
+0x59143: call	ecx
+ ------------------------------
+0x5913d: or	byte ptr [ecx - 0x2976dbfc], cl
+0x59143: call	ecx
+ ------------------------------
+0x5913e: mov	dword ptr [esp], eax
+0x59141: mov	esi, edx
+0x59143: call	ecx
+ ------------------------------
+0x5913f: add	al, 0x24
+0x59141: mov	esi, edx
+0x59143: call	ecx
+ ------------------------------
+0x59140: and	al, 0xffffff89
+0x59142: salc	
+0x59143: call	ecx
+ ------------------------------
+0x59141: mov	esi, edx
+0x59143: call	ecx
+ ------------------------------
+0x59142: salc	
+0x59143: call	ecx
+ ------------------------------
+0x59143: call	ecx
+ ------------------------------
+0x5971b: mov	ecx, dword ptr [ebp - 0x10]
+0x5971e: mov	dword ptr [esp], ecx
+0x59721: call	eax
+ ------------------------------
+0x5971e: mov	dword ptr [esp], ecx
+0x59721: call	eax
+ ------------------------------
+0x59721: call	eax
+ ------------------------------
+0x57479: call	ecx
+ ------------------------------
+0x57660: and	dword ptr [ecx - 0x76fbdb84], ecx
+0x57666: xor	al, 0x24
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57661: mov	dword ptr [esp + 4], edi
+0x57665: mov	dword ptr [esp], esi
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57663: and	al, 4
+0x57665: mov	dword ptr [esp], esi
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57664: add	al, -0x77
+0x57666: xor	al, 0x24
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57665: mov	dword ptr [esp], esi
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57666: xor	al, 0x24
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57667: and	al, 0xffffff89
+0x57669: salc	
+0x5766a: call	ecx
+ ------------------------------
+0x57668: mov	esi, edx
+0x5766a: call	ecx
+ ------------------------------
+0x57669: salc	
+0x5766a: call	ecx
+ ------------------------------
+0x5766a: call	ecx
+ ------------------------------
+0x576b1: or	eax, 0x4244489
+0x576b6: mov	dword ptr [esp], ecx
+0x576b9: call	edx
+ ------------------------------
+0x576b2: mov	dword ptr [esp + 4], eax
+0x576b6: mov	dword ptr [esp], ecx
+0x576b9: call	edx
+ ------------------------------
+0x576b4: and	al, 4
+0x576b6: mov	dword ptr [esp], ecx
+0x576b9: call	edx
+ ------------------------------
+0x576b5: add	al, -0x77
+0x576b7: or	al, 0x24
+0x576b9: call	edx
+ ------------------------------
+0x576b6: mov	dword ptr [esp], ecx
+0x576b9: call	edx
+ ------------------------------
+0x576b7: or	al, 0x24
+0x576b9: call	edx
+ ------------------------------
+0x57ce7: lea	eax, dword ptr [ebp - 0xa0]
+0x57ced: mov	dword ptr [esp], eax
+0x57cf0: call	ecx
+ ------------------------------
+0x57ced: mov	dword ptr [esp], eax
+0x57cf0: call	ecx
+ ------------------------------
+0x57cee: add	al, 0x24
+0x57cf0: call	ecx
+ ------------------------------
+0x57cf0: call	ecx
+ ------------------------------
+0x4d0bd: pop	es
+0x4d0be: mov	dword ptr [esp], eax
+0x4d0c1: call	ecx
+ ------------------------------
+0x4d0be: mov	dword ptr [esp], eax
+0x4d0c1: call	ecx
+ ------------------------------
+0x4d0bf: add	al, 0x24
+0x4d0c1: call	ecx
+ ------------------------------
+0x4d0c1: call	ecx
+ ------------------------------
+0x4d747: mov	dword ptr [esp + 4], edi
+0x4d74b: mov	dword ptr [esp], esi
+0x4d74e: mov	dword ptr [esp + 0xc], 0xffffffff
+0x4d756: mov	dword ptr [esp + 8], 0xffffffff
+0x4d75e: call	ecx
+ ------------------------------
+0x4d74b: mov	dword ptr [esp], esi
+0x4d74e: mov	dword ptr [esp + 0xc], 0xffffffff
+0x4d756: mov	dword ptr [esp + 8], 0xffffffff
+0x4d75e: call	ecx
+ ------------------------------
+0x4d74c: xor	al, 0x24
+0x4d74e: mov	dword ptr [esp + 0xc], 0xffffffff
+0x4d756: mov	dword ptr [esp + 8], 0xffffffff
+0x4d75e: call	ecx
+ ------------------------------
+0x4d74e: mov	dword ptr [esp + 0xc], 0xffffffff
+0x4d756: mov	dword ptr [esp + 8], 0xffffffff
+0x4d75e: call	ecx
+ ------------------------------
+0x4d756: mov	dword ptr [esp + 8], 0xffffffff
+0x4d75e: call	ecx
+ ------------------------------
+0x4d75e: call	ecx
+ ------------------------------
+0x4e275: mov	dword ptr [esp], edi
+0x4e278: call	eax
+ ------------------------------
+0x4e276: cmp	al, 0x24
+0x4e278: call	eax
+ ------------------------------
+0x4e278: call	eax
+ ------------------------------
+0x4af2b: mov	dword ptr [esp], ebx
+0x4af2e: call	esi
+ ------------------------------
+0x4b2b7: mov	dword ptr [esp], eax
+0x4b2ba: call	ecx
+ ------------------------------
+0x4b2b8: add	al, 0x24
+0x4b2ba: call	ecx
+ ------------------------------
+0x4b2ba: call	ecx
+ ------------------------------
+0x43c8a: mov	edi, dword ptr [eax + 0x437c2]
+0x43c90: mov	dword ptr [edi], 0
+0x43c96: mov	eax, dword ptr [esi + 4]
+0x43c99: mov	dword ptr [esp], eax
+0x43c9c: call	ebx
+ ------------------------------
+0x43c8b: mov	eax, 0x437c2
+0x43c90: mov	dword ptr [edi], 0
+0x43c96: mov	eax, dword ptr [esi + 4]
+0x43c99: mov	dword ptr [esp], eax
+0x43c9c: call	ebx
+ ------------------------------
+0x43c90: mov	dword ptr [edi], 0
+0x43c96: mov	eax, dword ptr [esi + 4]
+0x43c99: mov	dword ptr [esp], eax
+0x43c9c: call	ebx
+ ------------------------------
+0x43c96: mov	eax, dword ptr [esi + 4]
+0x43c99: mov	dword ptr [esp], eax
+0x43c9c: call	ebx
+ ------------------------------
+0x43c98: add	al, -0x77
+0x43c9a: add	al, 0x24
+0x43c9c: call	ebx
+ ------------------------------
+0x43c99: mov	dword ptr [esp], eax
+0x43c9c: call	ebx
+ ------------------------------
+0x43c9a: add	al, 0x24
+0x43c9c: call	ebx
+ ------------------------------
+0x43c9c: call	ebx
+ ------------------------------
+0x3726c: mov	dword ptr [esp + 4], ecx
+0x37270: mov	dword ptr [esp], ebx
+0x37273: call	eax
+ ------------------------------
+0x37270: mov	dword ptr [esp], ebx
+0x37273: call	eax
+ ------------------------------
+0x37273: call	eax
+ ------------------------------
+0x372b3: push	esi
+0x372b4: sub	esp, 0x1c
+0x372b7: mov	esi, ecx
+0x372b9: call	edx
+ ------------------------------
+0x372b4: sub	esp, 0x1c
+0x372b7: mov	esi, ecx
+0x372b9: call	edx
+ ------------------------------
+0x372b7: mov	esi, ecx
+0x372b9: call	edx
+ ------------------------------
+0x372b9: call	edx
+ ------------------------------
+0x35953: pop	es
+0x35954: add	ecx, ebx
+0x35956: mov	dword ptr [esp], ecx
+0x35959: call	eax
+ ------------------------------
+0x35954: add	ecx, ebx
+0x35956: mov	dword ptr [esp], ecx
+0x35959: call	eax
+ ------------------------------
+0x35956: mov	dword ptr [esp], ecx
+0x35959: call	eax
+ ------------------------------
+0x35959: call	eax
+ ------------------------------
+0x2a0e9: mov	ecx, dword ptr [ecx + 0x1c]
+0x2a0ec: mov	dword ptr [esp], ecx
+0x2a0ef: mov	edi, edx
+0x2a0f1: call	eax
+ ------------------------------
+0x2a0ef: mov	edi, edx
+0x2a0f1: call	eax
+ ------------------------------
+0x2a2fa: mov	dword ptr [esp], 2
+0x2a301: call	edi
+ ------------------------------
+0x2a2ff: add	byte ptr [eax], al
+0x2a301: call	edi
+ ------------------------------
+0x2a301: call	edi
+ ------------------------------
+0x26b0e: mov	dword ptr [esp], eax
+0x26b11: call	ebx
+ ------------------------------
+0x26b0f: add	al, 0x24
+0x26b11: call	ebx
+ ------------------------------
+0x26b11: call	ebx
+ ------------------------------
+0x26ba4: mov	dword ptr [esp], esi
+0x26ba7: call	edi
+ ------------------------------
+0x26ba5: xor	al, 0x24
+0x26ba7: call	edi
+ ------------------------------
+0x26ba7: call	edi
+ ------------------------------
+0x2383e: add	byte ptr [ebx + 0x8be045], cl
+0x23844: mov	dword ptr [esp], eax
+0x23847: call	esi
+ ------------------------------
+0x2383f: mov	eax, dword ptr [ebp - 0x20]
+0x23842: mov	eax, dword ptr [eax]
+0x23844: mov	dword ptr [esp], eax
+0x23847: call	esi
+ ------------------------------
+0x23842: mov	eax, dword ptr [eax]
+0x23844: mov	dword ptr [esp], eax
+0x23847: call	esi
+ ------------------------------
+0x23844: mov	dword ptr [esp], eax
+0x23847: call	esi
+ ------------------------------
+0x23845: add	al, 0x24
+0x23847: call	esi
+ ------------------------------
+0x21a26: mov	dword ptr [esi], eax
+0x21a28: mov	ecx, dword ptr [ebp - 0x1a4]
+0x21a2e: mov	dword ptr [esp], ecx
+0x21a31: call	eax
+ ------------------------------
+0x21a27: push	es
+0x21a28: mov	ecx, dword ptr [ebp - 0x1a4]
+0x21a2e: mov	dword ptr [esp], ecx
+0x21a31: call	eax
+ ------------------------------
+0x1a468: mov	dword ptr [esp], eax
+0x1a46b: call	ecx
+ ------------------------------
+0x1a469: add	al, 0x24
+0x1a46b: call	ecx
+ ------------------------------
+0x1a46b: call	ecx
+ ------------------------------
+0x1a5bd: mov	dword ptr [esp + 4], esi
+0x1a5c1: mov	dword ptr [esp], edi
+0x1a5c4: call	eax
+ ------------------------------
+0x1a5c1: mov	dword ptr [esp], edi
+0x1a5c4: call	eax
+ ------------------------------
+0x1a5c2: cmp	al, 0x24
+0x1a5c4: call	eax
+ ------------------------------
+0x1a64e: mov	dword ptr [esp], eax
+0x1a651: call	ecx
+ ------------------------------
+0x1a64f: add	al, 0x24
+0x1a651: call	ecx
+ ------------------------------
+0x1a651: call	ecx
+ ------------------------------
+0x1b8da: mov	dword ptr [esp], ebx
+0x1b8dd: call	ecx
+ ------------------------------
+0x1b8dd: call	ecx
+ ------------------------------
+0x17a77: call	eax
+ ------------------------------
+0x12c0a: mov	dword ptr [esp + 4], ecx
+0x12c0e: mov	dword ptr [esp], eax
+0x12c11: call	esi
+ ------------------------------
+0x12c0c: and	al, 4
+0x12c0e: mov	dword ptr [esp], eax
+0x12c11: call	esi
+ ------------------------------
+0x12c0d: add	al, -0x77
+0x12c0f: add	al, 0x24
+0x12c11: call	esi
+ ------------------------------
+0x12c0e: mov	dword ptr [esp], eax
+0x12c11: call	esi
+ ------------------------------
+0x12c0f: add	al, 0x24
+0x12c11: call	esi
+ ------------------------------
+0x12c11: call	esi
+ ------------------------------
+0xeba3: mov	eax, dword ptr [esi + 0x784fd]
+0xeba9: mov	dword ptr [eax], ebx
+0xebab: mov	eax, dword ptr [edi]
+0xebad: mov	dword ptr [esp], eax
+0xebb0: call	ecx
+ ------------------------------
+0xeba8: add	byte ptr [ecx - 0x76f874e8], cl
+0xebae: add	al, 0x24
+0xebb0: call	ecx
+ ------------------------------
+0xeba9: mov	dword ptr [eax], ebx
+0xebab: mov	eax, dword ptr [edi]
+0xebad: mov	dword ptr [esp], eax
+0xebb0: call	ecx
+ ------------------------------
+0xebab: mov	eax, dword ptr [edi]
+0xebad: mov	dword ptr [esp], eax
+0xebb0: call	ecx
+ ------------------------------
+0xebac: pop	es
+0xebad: mov	dword ptr [esp], eax
+0xebb0: call	ecx
+ ------------------------------
+0xebad: mov	dword ptr [esp], eax
+0xebb0: call	ecx
+ ------------------------------
+0xebae: add	al, 0x24
+0xebb0: call	ecx
+ ------------------------------
+0xebb0: call	ecx
+ ------------------------------
+0xb3c4: lea	ecx, dword ptr [ebp - 0x10]
+0xb3c7: mov	dword ptr [esp], ecx
+0xb3ca: call	eax
+ ------------------------------
+0xb3c7: mov	dword ptr [esp], ecx
+0xb3ca: call	eax
+ ------------------------------
+0xb3ca: call	eax
+ ------------------------------
+0xb3d8: lea	ecx, dword ptr [ebp - 0x10]
+0xb3db: mov	dword ptr [esp], ecx
+0xb3de: call	eax
+ ------------------------------
+0xb3db: mov	dword ptr [esp], ecx
+0xb3de: call	eax
+ ------------------------------
+0xb3de: call	eax
+ ------------------------------
+0x6e0b: mov	dword ptr [esp + 8], ecx
+0x6e0f: mov	dword ptr [esp + 4], edi
+0x6e13: mov	dword ptr [esp], esi
+0x6e16: call	eax
+ ------------------------------
+0x6e0f: mov	dword ptr [esp + 4], edi
+0x6e13: mov	dword ptr [esp], esi
+0x6e16: call	eax
+ ------------------------------
+0x6e13: mov	dword ptr [esp], esi
+0x6e16: call	eax
+ ------------------------------
+0x6e16: call	eax
+ ------------------------------
+0x718a: mov	dword ptr [esp + 8], ebx
+0x718e: mov	dword ptr [esp + 4], edx
+0x7192: mov	dword ptr [esp], eax
+0x7195: call	ecx
+ ------------------------------
+0x718d: or	byte ptr [ecx - 0x76fbdbac], cl
+0x7193: add	al, 0x24
+0x7195: call	ecx
+ ------------------------------
+0x718e: mov	dword ptr [esp + 4], edx
+0x7192: mov	dword ptr [esp], eax
+0x7195: call	ecx
+ ------------------------------
+0x718f: push	esp
+0x7190: and	al, 4
+0x7192: mov	dword ptr [esp], eax
+0x7195: call	ecx
+ ------------------------------
+0x7190: and	al, 4
+0x7192: mov	dword ptr [esp], eax
+0x7195: call	ecx
+ ------------------------------
+0x7191: add	al, -0x77
+0x7193: add	al, 0x24
+0x7195: call	ecx
+ ------------------------------
+0x7192: mov	dword ptr [esp], eax
+0x7195: call	ecx
+ ------------------------------
+0x7193: add	al, 0x24
+0x7195: call	ecx
+ ------------------------------
+0x74ad: mov	dword ptr [esp + 8], esi
+0x74b1: mov	dword ptr [esp + 4], ebx
+0x74b5: mov	dword ptr [esp], edi
+0x74b8: call	eax
+ ------------------------------
+0x74b0: or	byte ptr [ecx - 0x76fbdba4], cl
+0x74b6: cmp	al, 0x24
+0x74b8: call	eax
+ ------------------------------
+0x74b1: mov	dword ptr [esp + 4], ebx
+0x74b5: mov	dword ptr [esp], edi
+0x74b8: call	eax
+ ------------------------------
+0x74b5: mov	dword ptr [esp], edi
+0x74b8: call	eax
+ ------------------------------
+0x74b6: cmp	al, 0x24
+0x74b8: call	eax
+ ------------------------------
+--------------------------------------------------
+--[  Stats 
+----------------------------------------
+Gadgets found: 192
+[Debug] good: 192 - errors: 0
