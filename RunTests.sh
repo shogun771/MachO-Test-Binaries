@@ -492,42 +492,49 @@ if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pop_ecx.lua | tail -n +7 > tmp 
 cmp tmp Results/Test60
 if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pvtdown.lua | tail -n +7 > tmp 
 cmp tmp Results/Test61
 if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pvtfinder.lua | tail -n +7 > tmp 
 cmp tmp Results/Test62
 if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/pvtfinder2.lua | tail -n +7 > tmp 
 cmp tmp Results/Test63
 if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/vcall.lua | tail -n +7 > tmp 
 cmp tmp Results/Test64 
 if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/vcall2.lua | tail -n +7 > tmp 
 cmp tmp Results/Test65 
 if [ $? -eq 1 ]
 then
   exit 1
 fi
+
 ./RopTool -a x86 -f x86_64_FAT/sync -c luaScipts/x86/transfer_arith_with_branch.lua | tail -n +7 > tmp 
 cmp tmp Results/Test66
 if [ $? -eq 1 ]
